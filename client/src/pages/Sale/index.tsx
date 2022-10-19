@@ -32,7 +32,7 @@ function Sell() {
       Number(e.target.value) <= supply.data.data &&
       Number(e.target.value) <= account.balance / 1000000000000000000
     ) {
-      setTokenForBuy(Number(e.target.value * 14500));
+      setTokenForBuy(Number(e.target.value * 13500));
       setEgldForSpend(e.target.value);
       setShowError(false);
     } else {
@@ -101,7 +101,7 @@ function Sell() {
                 tokenForBuy
                   ? Intl.NumberFormat('de-DE').format(tokenForBuy)
                   : egldForSpend
-                  ? (egldForSpend * 14500).toFixed(3)
+                  ? (egldForSpend * 13500).toFixed(3)
                   : 0
               }
               type='number'
