@@ -57,7 +57,8 @@ function Sell() {
     <>
       <h1 className={styles.title}>BUY $ESTAR</h1>
       <h5 className={styles.subtitle}>1 EGLD = 13.500 $ESTAR</h5>
-      <h5 className={styles.subtitle}>0.1 EGLD minim amount</h5>
+      <h5 className={styles.subtitle}>0.1 EGLD = 1 ticket</h5>
+      <h5 className={styles.subtitle}>🎁Prizes: 5 EGLD & 1x Equistar NFT</h5>
 
       <Container className={styles.inputs}>
         <Form>
