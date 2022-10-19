@@ -57,6 +57,7 @@ function Sell() {
     <>
       <h1 className={styles.title}>BUY $ESTAR</h1>
       <h5 className={styles.subtitle}>1 EGLD = 14.500 $ESTAR</h5>
+      <h5 className={styles.subtitle}>0.1 EGLD minim amount</h5>
 
       <Container className={styles.inputs}>
         <Form>
@@ -130,7 +131,7 @@ function Sell() {
                 : false
             }
           >
-            Swap
+            Buy
           </Button>
           <Button
             className={showError === false ? styles.buttonSell : ''}

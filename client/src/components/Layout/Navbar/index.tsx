@@ -22,7 +22,7 @@ const Navbar = () => {
           className='d-flex align-items-center navbar-brand mr-0'
           to={isLoggedIn ? routeNames.sale : routeNames.sale}
         >
-          <Logo />
+          <Logo width={184} height={25} />
         </Link>
         <Nav className='ml-auto'>
           {isLoggedIn && (
